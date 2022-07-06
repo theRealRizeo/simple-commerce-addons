@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="WP Plugin Standard">
+
+	<exclude-pattern>vendor/*</exclude-pattern>
+
+    <arg value="s" />
+
+    <rule ref="WordPress">
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+        <exclude name="PEAR.NamingConventions.ValidClassName.Invalid" />
+        <exclude name="PEAR.NamingConventions.ValidClassName.StartWithCapital" />
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+        <esclude name="WordPress.WP.I18n.MissingTranslatorsComment" />
+    </rule>
+</ruleset>
